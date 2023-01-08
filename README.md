@@ -11,10 +11,6 @@ A Void World for Minecraft Java
 1. Select "Done"
 1. Select "Done"
 1. Select "Create New World"
-1. Save and quit after the world generates
-1. Open the save folder (in `%appdata%/.minecraft/saves`)
-1. Delete all .dat files _except_ `level.dat`
-1. Start the level
 1. Open the Game Menu and select "Open to LAN"
 1. Select "Allow Cheats: Off" so that it disaplays "ON"
 1. Quickly type `/gamemode creative`
@@ -23,3 +19,6 @@ A Void World for Minecraft Java
 1. Enter the command `/setblock 0 63 0 minecraft:grass_block`
 1. Enter the command `/gamemode survival`
 1. Exit the world
+1. Open the save folder (in `%appdata%/.minecraft/saves`)
+1. Delete the directories "advancements", "data", "DIM-1", and "playerdata", "serverconfig", and "stats"
+1. Delete "level.dat_old" and "session.lock"
